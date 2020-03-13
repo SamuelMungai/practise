@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.x{
+    height: 700px;
+    background-image: url(.jpg);
+    width: auto;
+}
+.y{
+    margin: auto;
+    align: center;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-align: center;
+    align-self: center;
+    font-size: 64px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background: none;
+    color: gray;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px 100px 100px 100px;
+}
+.hr{
+    width: 200px;
+    height: 40px;
+    background: none;
+    color: gray;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}

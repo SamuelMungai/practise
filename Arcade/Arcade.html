@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ARCADE</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        </head>
+    <body>
+        <form id="msform">
+            <ul id="progressbar">
+                <li class="active">Account setup</li>
+                <li>Social Profile</li>
+                <li>Personal Detail</li>
+            </ul>
+            <fieldset>
+                <h2 class="fs-title">Create your Account</h2>
+                <h3 class="fs-subtitle"This is step 1></h3>
+                <input type="text" name="email" placeholder="Email" />
+                <input type="password" name="Pass" placeholder="Password" />
+                <input type="password" name="cpass" placeholder="Confirm Password" />
+                <input type="button" name="next" class="next action-button" value="Next" />
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">Social Profiles</h2>
+                <h3 class="fs-title">Your presence on the social network</h3>
+                <input type="text" name="Twitter" placeholder="Twitter">
+                <input type="text" name="Facebook" placeholder="Facebook">
+                <input type="text" name="gplus" placeholder="Google Plus">
+                <input type="button" name="Previous" class="previous action-button" value="Previous" />
+                <input type="button" name="next" class="next action button" value="Next" />
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">Personal Details</h2>
+                <h3 class="fs-title">We will never sell it</h3>
+                <input type="text" name="fname" placeholder="First Name" />
+                <input type="text" name="lname" placeholder="Last Name" />
+                <input type="text" name="phone" placeholder="Phone" />
+                <textarea name="address" placeholder="Address"></textarea>
+                <input type="submit" name="submit" class="submit" value="Submit" />
+            </fieldset>
+        </form>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/juery-easing/1.3/jquery.easing.min.js'></script>
+
+        <script src="js/index.js"></script>
+            
+    </body>
+</html>
